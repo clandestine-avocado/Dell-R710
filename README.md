@@ -40,3 +40,8 @@ Once I can reach the iDRAC web interface, I need to update all the BIOS and firm
 
 -  Bootable ISO image? Maybe, but Dell took it down from their main site. [This](https://www.allenscloud.com/nextcloud/s/mWqdgZyw738Zfe4) looks promising, but have not tried it yet.
 -  Art of Server process? Need to rewatch this video and take notes. More manual process, but appears to work on his R710.
+
+
+# Decide on H200 Upgrade
+
+Unclear yet if I really need to do this, but looks relatively easy
