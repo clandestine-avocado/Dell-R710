@@ -12,8 +12,8 @@ Manufacture Date: 20100221 (21 JAN 2010)
 iDRAC6 Express
 1. Reset iDRAC6 to factory defaults
    -  CTR-E during boot, nav to the rest option
-   -  Reboot, and IP shows the default of 192.168.0.120
-   -  Also shows default gateway of 192.168.X.X; Could this be a problem, because mine gateway is 192.168.1.1
+   -  Reboot, and IP shows the default of [192.168.0.120](192.168.0.120)
+   -  Also shows default gateway of 192.168.X.X; Could this be a problem, because mine gateway is [192.168.1.1](192.168.1.1)
 
 
 
