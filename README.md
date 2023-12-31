@@ -31,20 +31,12 @@ iDRAC6 Express
 
 ![plot](https://github.com/clandestine-avocado/Dell-R710/blob/main/pics/5.0_iDRAC%20Static_IP_and_Gateway_Confirmed.png)
 
+-  Unfortunately, the new staic IP is also not reachable in a browser, and cannot be pinged.
 
-1. First ordered list item
-2. Another item
-⋅⋅* Unordered sub-list. 
-1. Actual numbers don't matter, just that it's a number
-⋅⋅1. Ordered sub-list
-4. And another item.
 
-⋅⋅⋅You can have properly indented paragraphs within list items. Notice the blank line above, and the leading spaces (at least one, but we'll use three here to also align the raw Markdown).
+# BIOS and Firmware Updates
 
-⋅⋅⋅To have a line break without a paragraph, you will need to use two trailing spaces.⋅⋅
-⋅⋅⋅Note that this line is separate, but within the same paragraph.⋅⋅
-⋅⋅⋅(This is contrary to the typical GFM line break behaviour, where trailing spaces are not required.)
+Once I can reach the iDRAC web interface, I need to update all the BIOS and firmware
 
-* Unordered list can use asterisks
-- Or minuses
-+ Or pluses
+-  Bootable ISO image? Maybe, but Dell took it down from their main site. [This](https://www.allenscloud.com/nextcloud/s/mWqdgZyw738Zfe4) looks promising, but have not tried it yet.
+-  Art of Server process? Need to rewatch this video and take notes. More manual process, but appears to work on his R710.
