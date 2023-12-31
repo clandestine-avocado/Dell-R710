@@ -1,24 +1,25 @@
-# Dell-R710 | Service Tag: 137CPL1
+# Dell-R710
 
 Wiki for first homelab set up with old Dell R710 server so I can keep track of all my mistakes, and learn from them
-
-Express Service Code: 2370531205
-
-Manufacture Date: 20100221 (21 JAN 2010)
+-  Service Tag: 137CPL1
+-  Express Service Code: 2370531205
+-  Manufacture Date: 20100221 (21 JAN 2010)
+-  OS: Proxmox v8.1.3
 
 
 # Remote Acccess
+**Goal**: Establish remote access to server.
+-  iDRAC6 Express only; firmware version 1.30.24
+-  No enterprise module and no dedicated eithernet port for the iDRAC module
+**Issue**: No matter what I do, I cannot get the iDRAC to ping on my network
 
-iDRAC6 Express
-1. Reset iDRAC6 to factory defaults
-   -  CTR-E during boot, nav to the rest option
+1. Reset iDRAC6 to factory defaults. It was already showing the default IP (192.168.0.120) but I decided to make sure I was starting from scratch, and reset to factory defaults just in case.
+   -  I hit CTR-E during boot, and navigated to the reset option
 
 ![plot](https://github.com/clandestine-avocado/Dell-R710/blob/main/pics/1.0_iDRAC%20Reset.png)
  
-   -  On screen prompt confirms reset was sucessfull
+   -  The on screen prompt confirms reset was sucessfull
 ![plot](https://github.com/clandestine-avocado/Dell-R710/blob/main/pics/2.0_iDRAC%20Reset_sucess.png)
-![plot]()
-![plot]()
 
    -  Rebooted server and watch to verify the reset defaulted the IP to [192.168.0.120](http://192.168.0.120/). It appears it worked according to the boot (left) up AND the iDRAC Config Utility screen (right)
      
@@ -47,3 +48,10 @@ Once I can reach the iDRAC web interface, I need to update all the BIOS and firm
 # Decide on H200 Upgrade
 
 Unclear yet if I really need to do this, but looks relatively easy
+
+
+![plot]()
+![plot]()
+
+
+
