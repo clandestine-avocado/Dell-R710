@@ -34,6 +34,7 @@ Wiki to document my first homelab set up with old Dell R710 server. Intention is
 ![plot](https://github.com/clandestine-avocado/Dell-R710/blob/main/pics/3.0_iDRAC%20Default_IP_Set.png)
 
    -  At this point, it is my understanding that I should be able to go to 192.168.0.120 and use the default login (root/calvin) to access the iDRAC web interface.
+     
      -   But the IP is not reachable in a browser (could be the old Java issue I've read about?)
      -   The IP cannot be pinged from the CLI either. Sucker is *not* on the network for some reason.
 
