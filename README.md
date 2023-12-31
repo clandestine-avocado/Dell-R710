@@ -11,7 +11,9 @@ Manufacture Date: 20100221 (21 JAN 2010)
 
 iDRAC6 Express
 1. Reset iDRAC6 to factory defaults
-3. Reboot, and IP defaults to 192.168.0.120
+ - CTR-E during boot, nav to the rest option
+ - Reboot, and IP shows the default of 192.168.0.120
+ - 
 
 
 
