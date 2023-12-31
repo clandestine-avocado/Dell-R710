@@ -20,12 +20,11 @@ iDRAC6 Express
 ![plot]()
 ![plot]()
 
-   -  Rebooted server and watch to verify the reset defaulted the IP to [192.168.0.120](http://192.168.0.120/). It appears it worked according to the boot up AND the iDRAC Config Utility:
+   -  Rebooted server and watch to verify the reset defaulted the IP to [192.168.0.120](http://192.168.0.120/). It appears it worked according to the boot (left) up AND the iDRAC Config Utility screen (right):
 ![plot](https://github.com/clandestine-avocado/Dell-R710/blob/main/pics/3.0_iDRAC%20Default_IP_Set.png)
 
-   -  At this point, it is my understanding that I should be able to go to 192.168.0.120 and use the default login (root/calvin) to log in. But the IP is not reachable, and cannot be pinged.
-   -  
-   -  Also shows default gateway of 192.168.X.X; Could this be a problem, because mine gateway is [192.168.1.1](192.168.1.1)
+   -  At this point, it is my understanding that I should be able to go to 192.168.0.120 and use the default login (root/calvin) to log in. But the IP is not reachable in a browser (could be the old Java issue I've read about?), and cannot be pinged from the CLI either. Sucker is *not* on the network for some reason.
+   - i noticed it defaults gateway of 192.168.0.1; Could this be a problem, because mine gateway is [192.168.1.1](192.168.1.1)
 
 
 
