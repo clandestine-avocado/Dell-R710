@@ -20,19 +20,22 @@ Wiki to document my first homelab set up with old Dell R710 server. Intention is
 **Issue**: No matter what I do, I cannot get the iDRAC to ping on my network. 
 
 ## 1st Attempt: Reset iDRAC6 to factory defaults
--  It was already showing the default IP (192.168.0.120) but I decided to make sure I was starting from scratch, and reset to factory defaults just in case.
--  I hit CTR-E during boot, and navigated to the reset option
+-  It was already showing the default IP (192.168.0.120) but I decided to make sure I was starting from scratch.
+-  I hit CTR-E during boot, navigated to the reset option, and reset to factory defaults just in case.
 
 ![plot](https://github.com/clandestine-avocado/Dell-R710/blob/main/pics/1.0_iDRAC%20Reset.png)
  
    -  The on screen prompt confirms reset was sucessfull
 ![plot](https://github.com/clandestine-avocado/Dell-R710/blob/main/pics/2.0_iDRAC%20Reset_sucess.png)
 
-   -  Rebooted server and watch to verify the reset defaulted the IP to [192.168.0.120](http://192.168.0.120/). It appears it worked according to the boot (left) up AND the iDRAC Config Utility screen (right)
+   -  I rebooted server and watched to verify the reset defaulted to [192.168.0.120](http://192.168.0.120/).
+   -  It appears it worked according to the boot (left) up AND the iDRAC Config Utility screen (right)
      
 ![plot](https://github.com/clandestine-avocado/Dell-R710/blob/main/pics/3.0_iDRAC%20Default_IP_Set.png)
 
-   -  At this point, it is my understanding that I should be able to go to 192.168.0.120 and use the default login (root/calvin) to log in. But the IP is not reachable in a browser (could be the old Java issue I've read about?), and cannot be pinged from the CLI either. Sucker is *not* on the network for some reason.
+   -  At this point, it is my understanding that I should be able to go to 192.168.0.120 and use the default login (root/calvin) to access the iDRAC web interface.
+   -     But the IP is not reachable in a browser (could be the old Java issue I've read about?)
+   -     The IP cannot be pinged from the CLI either. Sucker is *not* on the network for some reason.
 
 ## 2nd Attempt: Set Static IP/Gateway myself
    - I noticed the default gateway is set to 192.168.0.1; Could this be a problem? Because my gateway is [192.168.1.1](192.168.1.1)
