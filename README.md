@@ -28,6 +28,7 @@ iDRAC6 Express
    - At this point, I decided to go back into the iDRAC Config Utility and set a static IP of my choosing, and the gateway to 192.168.1.1
 ![plot](https://github.com/clandestine-avocado/Dell-R710/blob/main/pics/4.0_iDRAC%20Static_IP_and_Gateway_Set.png)
    - I again confirmed the settings to the static IP and gateway were actually changed by watching the boot up process, where I could see the new IP/gateway listed properly
+
 ![plot](https://github.com/clandestine-avocado/Dell-R710/blob/main/pics/5.0_iDRAC%20Static_IP_and_Gateway_Confirmed.png)
 
 
