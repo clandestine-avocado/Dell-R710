@@ -2,7 +2,14 @@
 
 <summary>Dell-R710 Hardware Details</summary>
 
-Wiki to document my first homelab set up with old Dell R710 server. Intention is to log pretty much everything I do on this journey, along with the solutions. so I can keep track of all my mistakes, and learn something new.
+Wiki to document my first homelab set up with old Dell R710 server. Intention is to log pretty much everything I do on this journey, along with the solutions. so I can keep track of all my mistakes, and learn something new. Full hardware details are [here](https://github.com/clandestine-avocado/Dell-R710/blob/main/hardware_info.txt)
+
+Text file produced via
+```
+lshw > hardware_info.txt
+
+```
+
 
 -  Service Tag: 137CPL1
 -  Express Service Code: 2370531205
