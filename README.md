@@ -105,13 +105,10 @@ chmod +x <file name>
 
 
 
-### Update Failures
+### iDRAC Update Failure
 |Desc|FileName|Works?|
 |-------------|:-------------| :-----:|
-| Network Updates | Network_Firmware_35RF5_LN_7.12.19.BIN | N |
 | iDRAC update from 1.3 to 2.92 | ESM_Firmware_KPCCC_LN32_2.92_A00.BIN | N |
-
-## iDRAC
 ```
 root@pve:/# chmod +x ESM_Firmware_KPCCC_LN32_2.92_A00.BIN
 root@pve:/# ./ESM_Firmware_KPCCC_LN32_2.92_A00.BIN
@@ -121,23 +118,13 @@ This Update Package is not compatible with your system.
 /opt/dell/updatepackage/ESM_Firmware_KPCCC_LN32_2.92_A00.BIN-497676.ZWKn36/spsetup.sh: 658: ./sputility.bin: not found
 ```
 
-## Network Updates
-```
-xxxx
-```
-
-
-
-
-
-
-
 
 ### Update Sucesses
 |Desc|FileName|Works?|
 |-------------|:-------------| :-----:|
 | Main BIOS Update from 6.3 to 6.6 | BIOS_0F4YY_LN_6.6.0.BIN | Y |
 | Lifecycle-Controller from ?? to 1.7.5.4 | Lifecycle-Controller_Legacy_Application_0WFGM_LN_1.7.5.4_A00.BIN | Y |
+| Network Updates | Network_Firmware_35RF5_LN_7.12.19.BIN | Y (already up to date...) |
 
 
 ### Unknown
