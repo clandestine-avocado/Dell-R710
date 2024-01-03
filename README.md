@@ -74,7 +74,7 @@ Colons can be used to align columns.
 
 |Desc| FileName        | Link        | Works?  |
 |--| ------------- |:-------------:| -----:|
-|x| BIOS_0F4YY_LN_6.6.0.BIN      | right-aligned | $1600 |
+|x| BIOS_0F4YY_LN_6.6.0.BIN      | right-aligned | [logo]: https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 2" |
 |x| ESM_Firmware_KPCCC_LN32_2.92_A00.BIN      | centered      |   $12 |
 |x| Lifecycle-Controller_Legacy_Application_0WFGM_LN_1.7.5.4_A00.BIN | are neat      |    $1 |
 |x| Network_Firmware_35RF5_LN_7.12.19.BIN | are neat      |    $1 |
