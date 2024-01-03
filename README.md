@@ -49,7 +49,10 @@ Wiki to document my first homelab set up with old Dell R710 server. Intention is
 
 ![plot](https://github.com/clandestine-avocado/Dell-R710/blob/main/pics/5.0_iDRAC%20Static_IP_and_Gateway_Confirmed.png)
 
--  Unfortunately, the new staic IP is also not reachable in a browser, and cannot be pinged.
+-  ~Unfortunately, the new staic IP is also not reachable in a browser, and cannot be pinged.~
+-  Waited a day, and tried to ping from Windows laptop CMD instead of the server OS (Proxmox) shell, and WAS able to ping.
+-  Didn't change a thing, and don't understand why it would matter what device I ping FROM, but a ping from within the server OS (192.168.1.5) to the iDRAC (192.168.1.200) results in this in the shell: `From 192.168.1.5 icmp_seq=6 Destination Host Unreachable`
+-  
 
 ## 3rd Attempt
 -  Unsure what to try next
