@@ -77,13 +77,7 @@ From 192.168.1.5 icmp_seq=1 Destination Host Unreachable
 
 All files downloaded from Dell Support [here](https://www.dell.com/support/home/en-us/product-support/product/poweredge-r710/drivers) except for the Bootable ISO, which was discovered on this [Reddit thread](https://www.reddit.com/r/homelab/comments/sysxo0/dell_poweredge_firmware_isos/) and downloaded from [here](https://forum.allenscloud.com/c/dell-servers/5).
 
-### Update Failures
-|Desc|FileName|Works?|
-|-------------|:-------------| :-----:|
-| Network Updates | Network_Firmware_35RF5_LN_7.12.19.BIN | N |
-| iDRAC update from 1.3 to 2.92 | ESM_Firmware_KPCCC_LN32_2.92_A00.BIN | N |
-
-
+### General How-To/Commands
 - .BIN` files were all moved to the server via [WINSCP](https://winscp.net/eng/download.php). 
 - From the server console CD to directory and view all BIN files with 
 
@@ -108,6 +102,35 @@ chmod +x <file name>
 ```
 ./<file name>
 ```
+
+
+
+### Update Failures
+|Desc|FileName|Works?|
+|-------------|:-------------| :-----:|
+| Network Updates | Network_Firmware_35RF5_LN_7.12.19.BIN | N |
+| iDRAC update from 1.3 to 2.92 | ESM_Firmware_KPCCC_LN32_2.92_A00.BIN | N |
+
+## iDRAC
+```
+root@pve:/# chmod +x ESM_Firmware_KPCCC_LN32_2.92_A00.BIN
+root@pve:/# ./ESM_Firmware_KPCCC_LN32_2.92_A00.BIN
+/opt/dell/updatepackage/ESM_Firmware_KPCCC_LN32_2.92_A00.BIN-497676.ZWKn36/spsetup.sh: 2544: ./getSystemId: not found
+        not a dynamic executable
+This Update Package is not compatible with your system.
+/opt/dell/updatepackage/ESM_Firmware_KPCCC_LN32_2.92_A00.BIN-497676.ZWKn36/spsetup.sh: 658: ./sputility.bin: not found
+```
+
+## Network Updates
+```
+xxxx
+```
+
+
+
+
+
+
 
 
 ### Update Sucesses
