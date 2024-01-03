@@ -57,10 +57,9 @@ root@pve:~# ping 192.168.1.200
 PING 192.168.1.200 (192.168.1.200) 56(84) bytes of data.
 From 192.168.1.5 icmp_seq=1 Destination Host Unreachable
 ```
--  
-
-## 3rd Attempt
--  Unsure what to try next
+-  Now dealing with TLS issues in the browser, getting `ERR_SSL_VERSION_OR_CIPHER_MISMATCH`
+-  Solution is to use Firefox, go to `about:config` and set `security.tls.version.enable-deprecated` to disabled
+-  I also encountered a situation where I would log in, it would accept my credentials, then return to the login screen with no errors. Clearing the browser cache fixed that
 
 
 # BIOS and Firmware Updates
@@ -69,6 +68,29 @@ Once I can reach the iDRAC web interface, I need to update all the BIOS and firm
 
 -  Bootable ISO image? Maybe, but Dell took it down from their main site. [This](https://www.allenscloud.com/nextcloud/s/mWqdgZyw738Zfe4) looks promising, but have not tried it yet.
 -  Art of Server process? Need to rewatch this video and take notes. More manual process, but appears to work on his R710.
+
+
+Colons can be used to align columns.
+
+|Desc| FileName        | Link        | Works?  |
+|--| ------------- |:-------------:| -----:|
+|x| BIOS_0F4YY_LN_6.6.0.BIN      | right-aligned | $1600 |
+|x| ESM_Firmware_KPCCC_LN32_2.92_A00.BIN      | centered      |   $12 |
+|x| Lifecycle-Controller_Legacy_Application_0WFGM_LN_1.7.5.4_A00.BIN | are neat      |    $1 |
+|x| Network_Firmware_35RF5_LN_7.12.19.BIN | are neat      |    $1 |
+
+```
+root@pve:/# ls -la *.BIN
+-rwxr-xr-x 1 root root 10852356 Jan  2 16:27 BIOS_0F4YY_LN_6.6.0.BIN
+-rwxr-xr-x 1 root root 57885351 Jan  2 16:30 ESM_Firmware_KPCCC_LN32_2.92_A00.BIN
+-rwxr-xr-x 1 root root 13612935 Jan  2 16:31 Lifecycle-Controller_Legacy_Application_0WFGM_LN_1.7.5.4_A00.BIN
+-rwxr-xr-x 1 root root 24169410 Jan  2 16:38 Network_Firmware_35RF5_LN_7.12.19.BIN
+```
+
+
+There must be at least 3 dashes separating each header cell.
+The outer pipes (|) are optional, and you don't need to make the 
+raw Markdown line up prettily. You can also use inline Markdown.
 
 
 # Decide on H200 Upgrade
