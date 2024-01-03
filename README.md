@@ -74,12 +74,12 @@ All files downloaded from Dell Support [here](https://www.dell.com/support/home/
 
 
 |Desc|FileName|Works?|
-|------------- |:-------------:| -----:|
-|Main BIOS Update from 6.3 to 6.6| BIOS_0F4YY_LN_6.6.0.BIN | Y |
-|Lifecycle-Controller in BIOS| Lifecycle-Controller_Legacy_Application_0WFGM_LN_1.7.5.4_A00.BIN  |Y |
-|Network Updates| Network_Firmware_35RF5_LN_7.12.19.BIN | N |
-|iDRAC update from 1.3 to 2.92| ESM_Firmware_KPCCC_LN32_2.92_A00.BIN |N |
-|Bootable ISO| XXX |N |
+|-------------|:-------------:| -----:|
+| Main BIOS Update from 6.3 to 6.6 | BIOS_0F4YY_LN_6.6.0.BIN | Y |
+| Lifecycle-Controller in BIOS | Lifecycle-Controller_Legacy_Application_0WFGM_LN_1.7.5.4_A00.BIN | Y |
+| Network Updates | Network_Firmware_35RF5_LN_7.12.19.BIN | N |
+| iDRAC update from 1.3 to 2.92 | ESM_Firmware_KPCCC_LN32_2.92_A00.BIN | N |
+| Bootable ISO | XXX | N |
 
 `.BIN` Files were all moved to server via [WINSCP](https://winscp.net/eng/download.php)
 From the server console Cd to directory and view all BIN files with `ls -la *.BIN`:
