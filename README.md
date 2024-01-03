@@ -1,7 +1,7 @@
 <details>
 
 <summary>Dell-R710 Hardware Details</summary>
-# Dell-R710 Hardware Details
+#Dell-R710 Hardware Details
 
 Wiki to document my first homelab set up with old Dell R710 server. Intention is to log pretty much everything I do on this journey, along with the solutions. so I can keep track of all my mistakes, and learn something new.
 
