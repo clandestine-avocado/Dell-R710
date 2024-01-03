@@ -1,7 +1,6 @@
 <details>
 
 <summary>Dell-R710 Hardware Details</summary>
-## Dell-R710 Hardware Details
 
 Wiki to document my first homelab set up with old Dell R710 server. Intention is to log pretty much everything I do on this journey, along with the solutions. so I can keep track of all my mistakes, and learn something new.
 
@@ -17,7 +16,8 @@ Wiki to document my first homelab set up with old Dell R710 server. Intention is
 
 </details>
 
-# Remote Acccess: Trouble from the GitGo...
+<details>
+<summary>Remote Acccess with iDRAC6</summary>
 **Goal**: Establish basic remote access to server.
 -  iDRAC6 Express only; firmware version 1.30.24
 -  No enterprise module and no dedicated eithernet port for the iDRAC module
@@ -64,11 +64,10 @@ From 192.168.1.5 icmp_seq=1 Destination Host Unreachable
 -  Now dealing with TLS issues in the browser, getting `ERR_SSL_VERSION_OR_CIPHER_MISMATCH`
 -  Solution is to use Firefox, go to `about:config` and set `security.tls.version.enable-deprecated` to disabled
 -  I also encountered a situation where I would log in, it would accept my credentials, then return to the login screen with no errors. Clearing the browser cache fixed that
+</details>
 
-
-# BIOS and Firmware Updates
-
-Once I can reach the iDRAC web interface, I need to update all the BIOS and firmware
+<details>
+<summary>BIOS and Firmware Updates</summary>
 
 -  Bootable ISO image? Maybe, but Dell took it down from their main site. [This](https://www.allenscloud.com/nextcloud/s/mWqdgZyw738Zfe4) looks promising, but have not tried it yet.
 -  Art of Server process? Need to rewatch this video and take notes. More manual process, but appears to work on his R710.
@@ -96,16 +95,17 @@ root@pve:/# ls -la *.BIN
 -rwxr-xr-x 1 root root 24169410 Jan  2 16:38 Network_Firmware_35RF5_LN_7.12.19.BIN
 ```
 
-
-There must be at least 3 dashes separating each header cell.
-The outer pipes (|) are optional, and you don't need to make the 
-raw Markdown line up prettily. You can also use inline Markdown.
+</details>
 
 
-# Decide on H200 Upgrade
+<details>
+<summary>Decide on H200 Upgrade</summary>
+Unclear yet if I really need to do this, but looks relatively easy - see Art of Server video
+</details>
 
-Unclear yet if I really need to do this, but looks relatively easy
-
+<details>
+<summary>XXXXXXXXXXXXXXX</summary>
+</details>
 
 ![plot]()
 ![plot]()
