@@ -82,10 +82,11 @@ All files downloaded from Dell Support [here](https://www.dell.com/support/home/
 |-------------|:-------------| :-----:|
 | Network Updates | Network_Firmware_35RF5_LN_7.12.19.BIN | N |
 | iDRAC update from 1.3 to 2.92 | ESM_Firmware_KPCCC_LN32_2.92_A00.BIN | N |
-| Bootable ISO | R710_bootable.iso | Have not tried yet |
 
-`.BIN` files were all moved to the server via [WINSCP](https://winscp.net/eng/download.php). 
-From the server console CD to directory and view all BIN files with 
+
+- .BIN` files were all moved to the server via [WINSCP](https://winscp.net/eng/download.php). 
+- From the server console CD to directory and view all BIN files with 
+
 ```
 ls -la *.BIN
 ```
@@ -98,11 +99,12 @@ root@pve:/# ls -la *.BIN
 -rwxr-xr-x 1 root root 24169410 Jan  2 16:38 Network_Firmware_35RF5_LN_7.12.19.BIN
 ```
 
-Make the BIN executable via 
+- Make the BIN executable via 
 ```
 chmod +x <file name>
 ```
-Then execute the file with 
+
+- Execute the file via 
 ```
 ./<file name>
 ```
