@@ -85,8 +85,11 @@ All files downloaded from Dell Support [here](https://www.dell.com/support/home/
 | Bootable ISO | R710_bootable.iso | Have not tried yet |
 
 `.BIN` files were all moved to the server via [WINSCP](https://winscp.net/eng/download.php). 
-From the server console CD to directory and view all BIN files with `ls -la *.BIN`:
-
+From the server console CD to directory and view all BIN files with 
+```
+ls -la *.BIN
+```
+Result:
 ```
 root@pve:/# ls -la *.BIN
 -rwxr-xr-x 1 root root 10852356 Jan  2 16:27 BIOS_0F4YY_LN_6.6.0.BIN
@@ -95,8 +98,14 @@ root@pve:/# ls -la *.BIN
 -rwxr-xr-x 1 root root 24169410 Jan  2 16:38 Network_Firmware_35RF5_LN_7.12.19.BIN
 ```
 
-Make the BIN executable via ```chmod +x <file name>```
-Then execute the file with ```./<file name>```
+Make the BIN executable via 
+```
+chmod +x <file name>
+```
+Then execute the file with 
+```
+./<file name>
+```
 
 
 ### Update Sucesses
