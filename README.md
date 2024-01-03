@@ -77,11 +77,9 @@ From 192.168.1.5 icmp_seq=1 Destination Host Unreachable
 
 All files downloaded from Dell Support [here](https://www.dell.com/support/home/en-us/product-support/product/poweredge-r710/drivers) except for the Bootable ISO, which was discovered on this [Reddit thread](https://www.reddit.com/r/homelab/comments/sysxo0/dell_poweredge_firmware_isos/) and downloaded from [here](https://forum.allenscloud.com/c/dell-servers/5).
 
-
+### Update Failures
 |Desc|FileName|Works?|
 |-------------|:-------------| :-----:|
-| Main BIOS Update from 6.3 to 6.6 | BIOS_0F4YY_LN_6.6.0.BIN | Y |
-| Lifecycle-Controller from ?? to 1.7.5.4 | Lifecycle-Controller_Legacy_Application_0WFGM_LN_1.7.5.4_A00.BIN | Y |
 | Network Updates | Network_Firmware_35RF5_LN_7.12.19.BIN | N |
 | iDRAC update from 1.3 to 2.92 | ESM_Firmware_KPCCC_LN32_2.92_A00.BIN | N |
 | Bootable ISO | R710_bootable.iso | Have not tried yet |
@@ -96,6 +94,24 @@ root@pve:/# ls -la *.BIN
 -rwxr-xr-x 1 root root 13612935 Jan  2 16:31 Lifecycle-Controller_Legacy_Application_0WFGM_LN_1.7.5.4_A00.BIN
 -rwxr-xr-x 1 root root 24169410 Jan  2 16:38 Network_Firmware_35RF5_LN_7.12.19.BIN
 ```
+
+
+
+
+
+### Update Sucesses
+|Desc|FileName|Works?|
+|-------------|:-------------| :-----:|
+| Main BIOS Update from 6.3 to 6.6 | BIOS_0F4YY_LN_6.6.0.BIN | Y |
+| Lifecycle-Controller from ?? to 1.7.5.4 | Lifecycle-Controller_Legacy_Application_0WFGM_LN_1.7.5.4_A00.BIN | Y |
+
+
+### Unknown
+|Desc|FileName|Works?|
+|-------------|:-------------| :-----:|
+| Bootable ISO | R710_bootable.iso | Have not tried yet |
+
+
 
 </details>
 
