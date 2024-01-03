@@ -70,14 +70,17 @@ Once I can reach the iDRAC web interface, I need to update all the BIOS and firm
 -  Art of Server process? Need to rewatch this video and take notes. More manual process, but appears to work on his R710.
 
 
-Colons can be used to align columns.
+All files downloaded from Dell Support [here](https://www.dell.com/support/home/en-us/product-support/product/poweredge-r710/drivers)
 
 |Desc| FileName        | Link        | Works?  |
 |--| ------------- |:-------------:| -----:|
-|x| BIOS_0F4YY_LN_6.6.0.BIN      | right-aligned | [logo]: https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 2" |
-|x| ESM_Firmware_KPCCC_LN32_2.92_A00.BIN      | centered      |   $12 |
-|x| Lifecycle-Controller_Legacy_Application_0WFGM_LN_1.7.5.4_A00.BIN | are neat      |    $1 |
-|x| Network_Firmware_35RF5_LN_7.12.19.BIN | are neat      |    $1 |
+|Main BIOS Update from 6.3 to 6.6| BIOS_0F4YY_LN_6.6.0.BIN | LINK | Y |
+|x| ESM_Firmware_KPCCC_LN32_2.92_A00.BIN      | LINK |   XXXX |
+|x| Lifecycle-Controller_Legacy_Application_0WFGM_LN_1.7.5.4_A00.BIN | LINK | XXXX |
+|x| Network_Firmware_35RF5_LN_7.12.19.BIN | LINK | XXXX |
+
+Files were all moved to server via [WINSCP](https://winscp.net/eng/download.php)
+From the server console Cd to directory and view all BIN files with `ls -la *.BIN`:
 
 ```
 root@pve:/# ls -la *.BIN
