@@ -1,5 +1,22 @@
 # Dell-R710
 
+<details>
+
+<summary>Tips for collapsed sections</summary>
+
+### You can add a header
+
+You can add text within a collapsed section. 
+
+You can add an image or a code block, too.
+
+```ruby
+   puts "Hello World"
+```
+
+</details>
+
+
 Wiki to document my first homelab set up with old Dell R710 server. Intention is to log pretty much everything I do on this journey, along with the solutions. so I can keep track of all my mistakes, and learn something new.
 
 -  Service Tag: 137CPL1
