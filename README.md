@@ -1,21 +1,7 @@
-# Dell-R710
-
 <details>
 
-<summary>Tips for collapsed sections</summary>
-
-### You can add a header
-
-You can add text within a collapsed section. 
-
-You can add an image or a code block, too.
-
-```ruby
-   puts "Hello World"
-```
-
-</details>
-
+<summary>Dell-R710 Hardware Details</summary>
+# Dell-R710 Hardware Details
 
 Wiki to document my first homelab set up with old Dell R710 server. Intention is to log pretty much everything I do on this journey, along with the solutions. so I can keep track of all my mistakes, and learn something new.
 
@@ -28,7 +14,8 @@ Wiki to document my first homelab set up with old Dell R710 server. Intention is
 -  Storage: 2x 250 GB HDD/ 4 bays empty. One HDD is already blinking amber; going to replace them all eventually
 -  RAM: 8 GB; workong on upgrading, but will wait intil I know how much I will need.
 -  CPU: 2x Intel(R) Xeon(R) L5520 @ 2.27GHz
--  
+
+</details>
 
 # Remote Acccess: Trouble from the GitGo...
 **Goal**: Establish basic remote access to server.
