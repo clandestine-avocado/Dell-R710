@@ -69,6 +69,8 @@ From 192.168.1.5 icmp_seq=1 Destination Host Unreachable
 <details>
 <summary>BIOS and Firmware Updates</summary>
 
+### Options
+
 -  Bootable ISO image? Maybe, but Dell took it down from their main site. [This](https://www.allenscloud.com/nextcloud/s/mWqdgZyw738Zfe4) looks promising, but have not tried it yet.
 -  Art of Server process? Need to rewatch this video and take notes. More manual process, but appears to work on his R710.
 
